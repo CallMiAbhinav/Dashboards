@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 # Load the CSV file
-df = pd.read_csv('https://github.com/CallMiAbhinav/Dashboards/blob/af3ef1bd73c8b23aef4a570da32a31d96c6d9bb6/Python/dairy_dataset.csv',sep=',',error_bad_lines=False)
+df = pd.read_csv('https://github.com/CallMiAbhinav/Dashboards/blob/af3ef1bd73c8b23aef4a570da32a31d96c6d9bb6/Python/dairy_dataset.csv',sep=',',on_bad_lines='skip')
 
 # Convert 'Date' column to datetime
 df['Date'] = pd.to_datetime(df['Date'])
