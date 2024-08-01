@@ -22,7 +22,7 @@ header = st.container()
 with header:
     t1, t2 = st.columns([1, 3])
     with t1:
-        st.image(r'C:\Users\abhin\Desktop\excelr\data science material by mam\DATA SCIENCE PROJECT\dairy_project\nddb.png', width=180)
+        st.image('https://github.com/CallMiAbhinav/Dashboards/blob/d7d1dbfbb03cb1a20e3f7f72fbb1d696c93f80ef/Python/nddb.png', width=180)
     with t2:
         st.title('NDDB DAIRY FARM DASHBOARD')
         st.markdown("This dashboard provides key insights into the operations of a dairy farm, including sales, stock levels, and revenue.")
